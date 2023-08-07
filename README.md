@@ -1,6 +1,7 @@
 # boundary-Analysis
 
 any number lower than 0 is invalid #1
+
 0-49 F  (0 ,49)  2 test cases  valid
 
 50-60 D (50,60) 2 test cases valid
