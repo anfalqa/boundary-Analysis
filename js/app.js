@@ -6,8 +6,9 @@ let student = prompt("Please enter your name:", "AHMAD");
 if (student == null || student == "") {
     text = alert("User cancelled the prompt.");
 } else {
-    mark = prompt("WELCOME " + student + "! please enter the mark ?");
+    mark = Math.floor(prompt("WELCOME " + student + "! please enter the mark ?")) ;
     console.log(mark);
+
     if (mark <= 0) {
         mark = alert("WELCOME " + student + " This mark is Invalid !");
     }
